@@ -1,1 +1,14 @@
-@import ur(./vendor/normalize.css);
+/* @import ur(./vendor/normalize.css); */
+@import "./vendor/fonts.css";
+
+body {
+  font-family: "cabinet-grotesk", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
