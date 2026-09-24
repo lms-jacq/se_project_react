@@ -16,17 +16,6 @@
   visibility: visible;
 }
 
-.modal__content {
-  position: relative;
-  background: rgba(255, 255, 255, 1);
-  border-radius: 20px;
-  padding: 28px 28px 36px;
-  max-width: 496px;
-  max-height: 436px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .modal__title {
   font-size: 16px;
   line-height: 20px;
@@ -39,21 +28,41 @@
   right: 28px;
 }
 
+.modal__content {
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  padding: 28px 28px 36px;
+  max-width: 496px;
+  max-height: 436px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .modal__form {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .modal__input {
   display: block;
 }
 
-.modal__radio-btns {
+.modal__radio-buttons {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .modal__radio-input {
   border: none;
   padding: 0;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .modal__submit {
   width: 124px;
